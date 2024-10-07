@@ -1,0 +1,36 @@
+{
+    "_id": "ObjectId",
+    "full_name": "John Doe",
+    "email": "john@example.com",
+    "password": "hashed_password",
+    "created_at": "ISODate"
+}
+{
+    "_id": "ObjectId",
+    "name": "Organic Avocado",
+    "description": "Fresh organic avocados from local farms.",
+    "price": 2.99,
+    "category": "Fruits",
+    "stock": 100,
+    "image_url": "https://example.com/images/avocado.jpg",
+    "created_at": "ISODate"
+}
+{
+    "_id": "ObjectId",
+    "user_id": "ObjectId",
+    "total": 29.99,
+    "status": "Pending",
+    "created_at": "ISODate",
+    "items": [
+        {
+            "product_id": "ObjectId",
+            "quantity": 3,
+            "price": 2.99
+        },
+        {
+            "product_id": "ObjectId",
+            "quantity": 1,
+            "price": 3.50
+        }
+    ]
+}

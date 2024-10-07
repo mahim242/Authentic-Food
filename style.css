@@ -1,0 +1,2305 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0a500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('https://via.placeholder.com/1600x400');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #f0a500;
+    color: #121212;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ffbe33;
+}
+
+/* Featured Products */
+.featured {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.featured h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #f0a500;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    background-color: #f0a500;
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.add-to-cart:hover {
+    background-color: #ffbe33;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f0a500;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 20
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Hero Section styling */
+.hero {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://via.placeholder.com/1600x900');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay on the background image */
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #f0a500;
+    color: #121212;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffbe33;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Featured Products Section styling */
+.featured {
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #f0a500;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; /* Space between product cards */
+}
+
+/* Product Card styling */
+.product-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.product-card .price {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #f0a500; /* Highlight the price */
+}
+
+.add-to-cart {
+    background-color: #f0a500;
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #ffbe33; /* Lighter shade on hover */
+}
+
+/* Hover effect for product cards */
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .featured h2 {
+        font-size: 28px;
+    }
+    
+    .product-card h3 {
+        font-size: 16px;
+    }
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* About Section styling */
+.about {
+    padding: 50px 20px;
+    background-color: #1a1a1a; /* Dark background for the section */
+    text-align: center; /* Centered text */
+}
+
+.about h2 {
+    font-size: 32px; /* Font size for the section title */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #f0a500; /* Golden color for the title */
+}
+
+.about p {
+    max-width: 800px; /* Maximum width of the text */
+    margin: 0 auto; /* Center the text */
+    font-size: 18px; /* Font size for paragraphs */
+    line-height: 1.6; /* Spacing between lines for readability */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .about h2 {
+        font-size: 28px; /* Reduced font size on smaller screens */
+    }
+
+    .about p {
+        font-size: 16px; /* Reduced paragraph font size */
+    }
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Newsletter Signup Section styling */
+.newsletter {
+    padding: 50px 20px; /* Padding around the section */
+    background-color: #1a1a1a; /* Dark background for the section */
+    text-align: center; /* Centered text */
+}
+
+.newsletter h2 {
+    font-size: 32px; /* Font size for the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #f0a500; /* Golden color for the title */
+}
+
+.newsletter p {
+    margin-bottom: 30px; /* Spacing below the paragraph */
+    font-size: 18px; /* Font size for the paragraph */
+}
+
+/* Form styling */
+form {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Centering the input and button */
+    gap: 10px; /* Space between input and button */
+}
+
+form input {
+    padding: 10px; /* Padding inside the input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Text color */
+    width: 300px; /* Width of the input */
+}
+
+form input::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+form button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #f0a500; /* Golden color for the button */
+    color: #121212; /* Dark text color for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+form button:hover {
+    background-color: #ffbe33; /* Lighter shade on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .newsletter h2 {
+        font-size: 28px; /* Reduced font size on smaller screens */
+    }
+
+    .newsletter p {
+        font-size: 16px; /* Reduced paragraph font size */
+    }
+
+    form input {
+        width: 100%; /* Full width for input on smaller screens */
+    }
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for the header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for the header title */
+    font-size: 36px; /* Font size for the title */
+    color: #f0a500; /* Golden color for the title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above the navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+/* Product Listing Section styling */
+.shop {
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Centered text */
+}
+
+.shop h2 {
+    font-size: 32px; /* Font size for the section title */
+    margin-bottom: 30px; /* Spacing below the title */
+    color: #f0a500; /* Golden color for the title */
+}
+
+.product-grid {
+    display: grid; /* Grid layout for products */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between product cards */
+}
+
+/* Product Card styling */
+.product-card {
+    background-color: #2a2a2a; /* Dark background for product cards */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+.product-card img {
+    width: 100%; /* Responsive image */
+    border-radius: 8px; /* Rounded corners for image */
+}
+
+.product-card h3 {
+    margin: 15px 0; /* Spacing above and below title */
+    font-size: 18px; /* Font size for product titles */
+}
+
+.product-card .price {
+    font-size: 16px; /* Font size for price */
+    margin-bottom: 20px; /* Spacing below price */
+    color: #f0a500; /* Highlight the price */
+}
+
+.add-to-cart {
+    background-color: #f0a500; /* Golden color for the button */
+    color: #121212; /* Dark text color for button */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* No underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.add-to-cart:hover {
+    background-color: #ffbe33; /* Lighter shade on hover */
+}
+
+/* Hover effect for product cards */
+.product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .shop h2 {
+        font-size: 28px; /* Reduced font size on smaller screens */
+    }
+
+    .product-card h3 {
+        font-size: 16px; /* Reduced font size for product titles */
+    }
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+/* Product Details Section styling */
+.product-details {
+    display: flex; /* Flex layout for product image and info */
+    padding: 50px 20px; /* Padding around section */
+    gap: 30px; /* Space between image and info */
+    max-width: 1200px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+}
+
+.product-image img {
+    width: 100%; /* Responsive image */
+    max-width: 400px; /* Max width for image */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.product-info {
+    flex: 1; /* Take remaining space */
+    text-align: left; /* Left-aligned text */
+}
+
+.product-info h2 {
+    font-size: 28px; /* Font size for product title */
+    margin-bottom: 15px; /* Spacing below title */
+}
+
+.price {
+    font-size: 24px; /* Font size for price */
+    color: #f0a500; /* Golden color for price */
+    margin-bottom: 15px; /* Spacing below price */
+}
+
+.description {
+    margin-bottom: 20px; /* Spacing below description */
+    font-size: 18px; /* Font size for description */
+}
+
+label {
+    font-size: 18px; /* Font size for label */
+}
+
+input[type="number"] {
+    width: 60px; /* Width for quantity input */
+    margin-left: 10px; /* Spacing to the left of input */
+    padding: 5px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Add to Cart button styling */
+.add-to-cart {
+    display: inline-block; /* Inline block for spacing */
+    background-color: #f0a500; /* Golden color for button */
+    color: #121212; /* Dark text color for button */
+    padding: 10px 20px; /* Padding inside button */
+    text-decoration: none; /* No underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.add-to-cart:hover {
+    background-color: #ffbe33; /* Lighter shade on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+nav a.active {
+    color: #f0a500; /* Golden color for active link */
+}
+
+/* Cart Section styling */
+.cart {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 800px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Centered text */
+}
+
+.cart h2 {
+    font-size: 32px; /* Font size for section title */
+    margin-bottom: 30px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Cart items styling */
+.cart-items {
+    margin-bottom: 30px; /* Spacing below cart items */
+}
+
+.cart-item {
+    display: flex; /* Flex layout for item */
+    align-items: center; /* Center items vertically */
+    background-color: #2a2a2a; /* Dark background for cart item */
+    padding: 15px; /* Padding inside item */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 15px; /* Spacing below each item */
+}
+
+.cart-item img {
+    width: 100px; /* Fixed width for image */
+    margin-right: 20px; /* Spacing to the right of image */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.item-info {
+    flex: 1; /* Take remaining space */
+    text-align: left; /* Left-aligned text */
+}
+
+.item-info h3 {
+    font-size: 20px; /* Font size for item title */
+    margin: 0 0 10px; /* No margin for title */
+}
+
+.price {
+    font-size: 18px; /* Font size for price */
+    color: #f0a500; /* Golden color for price */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+}
+
+input[type="number"] {
+    width: 60px; /* Width for quantity input */
+    margin-left: 10px; /* Spacing to the left of input */
+    padding: 5px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+.remove-item {
+    background-color: #d9534f; /* Red color for remove button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 8px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.remove-item:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Cart Summary styling */
+.cart-summary {
+    background-color: #2a2a2a; /* Dark background for summary */
+    padding: 20px; /* Padding inside summary */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.cart-summary h3 {
+    font-size: 24px; /* Font size for summary title */
+    margin-bottom: 10px; /* Spacing below title */
+}
+
+.total-price {
+    font-size: 20px; /* Font size for total price */
+    color: #f0a500; /* Golden color for total price */
+}
+
+.checkout {
+    background-color: #5cb85c; /* Green color for checkout button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.checkout:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+nav a.active {
+    color: #f0a500; /* Golden color for active link */
+}
+
+/* Checkout Section styling */
+.checkout {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 600px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Centered text */
+}
+
+.checkout h2 {
+    font-size: 32px; /* Font size for section title */
+    margin-bottom: 30px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Form styling */
+.checkout-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical alignment */
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex; /* Flex layout for label and input */
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+    margin-bottom: 5px; /* Spacing below label */
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none; /* Remove outline */
+    border: 2px solid #f0a500; /* Golden border on focus */
+}
+
+/* Submit button styling */
+.submit {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+nav a.active {
+    color: #f0a500; /* Golden color for active link */
+}
+
+/* Authentication Section styling */
+.auth {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 400px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Centered text */
+}
+
+.auth h2 {
+    font-size: 32px; /* Font size for section title */
+    margin-bottom: 30px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Form styling */
+.auth-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical alignment */
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex; /* Flex layout for label and input */
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+    margin-bottom: 5px; /* Spacing below label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none; /* Remove outline */
+    border: 2px solid #f0a500; /* Golden border on focus */
+}
+
+/* Submit button styling */
+.submit {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Link styling for switching between login and register */
+.switch-auth {
+    margin-top: 20px; /* Spacing above text */
+}
+
+.switch-auth a {
+    color: #f0a500; /* Golden color for links */
+    text-decoration: none; /* No underline */
+}
+
+.switch-auth a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+nav {
+    margin-top: 10px; /* Spacing above navigation links */
+}
+
+nav a {
+    color: #f0f0f0; /* Light color for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+nav a:hover {
+    color: #f0a500; /* Change color on hover */
+}
+
+nav a.active {
+    color: #f0a500; /* Golden color for active link */
+}
+
+/* Contact Section styling */
+.contact {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 600px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Centered text */
+}
+
+.contact h2 {
+    font-size: 32px; /* Font size for section title */
+    margin-bottom: 20px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+.contact p {
+    margin-bottom: 30px; /* Spacing below paragraph */
+}
+
+/* Form styling */
+.contact-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical alignment */
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex; /* Flex layout for label and input */
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+    margin-bottom: 5px; /* Spacing below label */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px; /* Padding inside input and textarea */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input and textarea */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none; /* Remove outline */
+    border: 2px solid #f0a500; /* Golden border on focus */
+}
+
+/* Submit button styling */
+.submit {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Database Schema Section styling */
+.database-schema {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 800px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: left; /* Left-aligned text */
+}
+
+.database-schema h2 {
+    font-size: 28px; /* Font size for section title */
+    margin-bottom: 20px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+pre {
+    background-color: #1a1a1a; /* Dark background for preformatted text */
+    padding: 15px; /* Padding inside pre */
+    border-radius: 4px; /* Rounded corners */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+code {
+    color: #8ab0f9; /* Light blue color for code text */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Authentication Container */
+.auth-container {
+    padding: 50px 20px; /* Padding around section */
+    max-width: 400px; /* Max width of the section */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Centered text */
+}
+
+.auth-container h2 {
+    font-size: 28px; /* Font size for section title */
+    margin-bottom: 20px; /* Spacing below title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Form styling */
+.auth-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical alignment */
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex; /* Flex layout for label and input */
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+    margin-bottom: 5px; /* Spacing below label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none; /* Remove outline */
+    border: 2px solid #f0a500; /* Golden border on focus */
+}
+
+/* Submit button styling */
+.submit {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+
+p {
+    margin: 15px 0; /* Spacing above and below paragraphs */
+}
+
+a {
+    color: #f0a500; /* Golden color for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+.product-management {
+    padding: 20px; /* Padding inside the section */
+}
+
+.product-management h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+.add-product {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+    margin-bottom: 20px; /* Space below button */
+}
+
+.add-product:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Table styling */
+.product-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.product-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.product-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Button styling for edit and delete */
+.edit,
+.delete {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.edit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete {
+    background-color: #dc3545; /* Red color for delete button */
+}
+
+.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+/* Cart container styling */
+.cart-container {
+    padding: 20px; /* Padding inside the section */
+}
+
+.cart-container h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Cart table styling */
+.cart-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.cart-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.cart-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.cart-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Cart summary styling */
+.cart-summary {
+    margin-top: 20px; /* Space above summary */
+    text-align: right; /* Right-align summary text */
+}
+
+.checkout {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.checkout:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Checkout container styling */
+.checkout-container {
+    padding: 20px; /* Padding inside the section */
+}
+
+.checkout-container h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Checkout form styling */
+.checkout-form {
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical alignment */
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex; /* Flex layout for label and input */
+    flex-direction: column; /* Vertical alignment */
+}
+
+label {
+    font-size: 16px; /* Font size for label */
+    margin-bottom: 5px; /* Spacing below label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px; /* Padding inside input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    outline: none; /* Remove outline */
+    border: 2px solid #f0a500; /* Golden border on focus */
+}
+
+/* Submit button styling */
+.submit {
+    background-color: #5cb85c; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+/* Order management section */
+.order-management {
+    padding: 20px; /* Padding inside the section */
+}
+
+.order-management h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Order table styling */
+.order-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.order-table th,
+.order-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.order-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.order-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Button styling for view and cancel */
+.view,
+.cancel {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.view:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.cancel {
+    background-color: #dc3545; /* Red color for cancel button */
+}
+
+.cancel:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+/* Email notifications section */
+.email-notifications {
+    padding: 20px; /* Padding inside the section */
+}
+
+.email-notifications h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Notification table styling */
+.notification-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.notification-table th,
+.notification-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.notification-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.notification-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.notification-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Button styling for view and delete */
+.view,
+.delete {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.view:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete {
+    background-color: #dc3545; /* Red color for delete button */
+}
+
+.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+/* Payment gateway section */
+.payment-gateway {
+    padding: 20px; /* Padding inside the section */
+}
+
+.payment-gateway h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Form styling */
+form {
+    background-color: #1a1a1a; /* Dark background for form */
+    padding: 20px; /* Padding inside form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for form */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block level label */
+    margin-bottom: 5px; /* Space below label */
+}
+
+input[type="text"],
+select {
+    width: 100%; /* Full width for input and select */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #222; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none; /* Remove outline */
+    border-color: #f0a500; /* Highlight border on focus */
+}
+
+/* Button styling */
+.submit {
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+/* API endpoints section */
+.api-endpoints {
+    padding: 20px; /* Padding inside the section */
+}
+
+.api-endpoints h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* API table styling */
+.api-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.api-table th,
+.api-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.api-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.api-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.api-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Button styling for edit and delete */
+.edit,
+.delete {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.edit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete {
+    background-color: #dc3545; /* Red color for delete button */
+}
+
+.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Add new endpoint button */
+.add-endpoint {
+    background-color: #28a745; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above button */
+    display: block; /* Full-width button */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.add-endpoint:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer styling */
+footer {
+    padding: 20px; /* Padding around footer */
+    text-align: center; /* Centered text */
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #f0f0f0; /* Light color for footer text */
+}
+/* General styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for header */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0; /* No margin for header title */
+    font-size: 36px; /* Font size for title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    height: 100%; /* Full height */
+    background-color: #1a1a1a; /* Dark background for sidebar */
+    padding-top: 20px; /* Padding at the top */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 20px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable area */
+}
+
+.sidebar ul li a:hover {
+    background-color: #333; /* Background on hover */
+}
+
+/* Main content styling */
+main {
+    margin-left: 220px; /* Space for sidebar */
+    padding: 20px; /* Padding for main content */
+}
+
+/* API endpoints section */
+.api-endpoints {
+    padding: 20px; /* Padding inside the section */
+}
+
+.api-endpoints h2 {
+    font-size: 28px; /* Font size for section title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Endpoint form styling */
+.endpoint-form {
+    margin-bottom: 20px; /* Space below the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: #1a1a1a; /* Dark background for form */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.endpoint-form h3 {
+    font-size: 24px; /* Font size for form title */
+    color: #f0a500; /* Golden color for title */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block level label */
+    margin-bottom: 5px; /* Space below label */
+}
+
+input[type="text"],
+select {
+    width: 100%; /* Full width for input and select */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #222; /* Dark background for input */
+    color: #f0f0f0; /* Light text color */
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none; /* Remove outline */
+    border-color: #f0a500; /* Highlight border on focus */
+}
+
+/* API table styling */
+.api-table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px; /* Space above table */
+}
+
+.api-table th,
+.api-table td {
+    border: 1px solid #444; /* Dark border */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left-aligned text */
+}
+
+.api-table th {
+    background-color: #1a1a1a; /* Dark background for header */
+}
+
+.api-table tr:nth-child(even) {
+    background-color: #222; /* Darker row background */
+}
+
+.api-table tr:hover {
+    background-color: #333; /* Background on row hover */
+}
+
+/* Button styling for edit and delete */
+.edit,
+.delete {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.edit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.delete {
+    background-color: #dc3545; /* Red color for delete button */
+}
+
+.delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Submit button for adding endpoint */
+.submit {
+    background-color: #28a745; /* Green color for button */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above button */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.submit:hover {
+    background-color: #218838;

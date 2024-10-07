@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Product Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Manage Products</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="product-management">
+            <h2>Product Management</h2>
+            <button class="add-product">Add New Product</button>
+
+            <table class="product-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Organic Avocado</td>
+                        <td>Fresh organic avocados from local farms.</td>
+                        <td>$2.99</td>
+                        <td>100</td>
+                        <td>
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Fresh Banana</td>
+                        <td>Ripe and sweet bananas.</td>
+                        <td>$1.99</td>
+                        <td>150</td>
+                        <td>
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Authentic Food Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
